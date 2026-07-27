@@ -47,7 +47,7 @@ Terms and Conditions, on the web, also known as Terms of Service or Terms of Use
 
 == Change log ==
 = 1.4.0 =
-* June 19th, 2026
+* July 27th, 2026
 * New: built-in online withdrawal function for EU Directive 2023/2673, available as a Withdrawal page, a Gutenberg block, and a shortcode.
 * New: the wizard now lets you choose between the Complianz-provided withdrawal form and linking to your own withdrawal function; the generated Terms & Conditions text reflects your choice.
 * New: withdrawal requests are sent to the merchant by email (with the consumer as Reply-To) and the consumer receives an acknowledgement of receipt; an on-screen confirmation is shown after submitting.

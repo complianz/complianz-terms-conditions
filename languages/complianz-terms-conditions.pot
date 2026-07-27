@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Complianz - Terms and Conditions 1.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/complianz-terms-conditions\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Complianz <support@complianz.io>\n"
+"Language-Team: Complianz <support@complianz.io>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-10T14:13:59+00:00\n"
+"POT-Creation-Date: 2026-07-27T08:27:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: complianz-terms-conditions\n"
 
 #. Plugin Name of the plugin
@@ -86,139 +86,146 @@ msgstr ""
 msgid "Terms & Conditions"
 msgstr ""
 
-#: class-document.php:578
+#: class-document.php:591
 msgid "Annex"
 msgstr ""
 
 #. translators: %s is the paragraph number.
-#: class-document.php:732
-#, php-format
+#: class-document.php:745
 msgid "(See paragraph %s)"
 msgstr ""
 
 #. translators: %s is the annex number.
-#: class-document.php:744
-#, php-format
+#: class-document.php:757
 msgid "(See annex %s)"
 msgstr ""
 
-#: class-document.php:780
-#: class-document.php:907
+#: class-document.php:793
+#: class-document.php:920
 msgid "and"
 msgstr ""
 
-#: class-document.php:1014
-#: class-document.php:1070
+#: class-document.php:1027
+#: class-document.php:1083
 #: config/documents/documents.php:26
 #: download.php:61
-#: rest-api/rest-api.php:116
+#: rest-api/rest-api.php:122
 msgid "Terms and Conditions"
 msgstr ""
 
-#: class-document.php:1033
+#: class-document.php:1046
 msgid "create"
 msgstr ""
 
-#: class-document.php:1035
-#: class-document.php:1796
+#: class-document.php:1048
+#: class-document.php:1827
 msgid "Click to copy the document shortcode"
 msgstr ""
 
-#: class-document.php:1125
+#: class-document.php:1138
 msgid "Legal Document"
 msgstr ""
 
-#: class-document.php:1161
+#: class-document.php:1174
 msgid "Document status"
 msgstr ""
 
-#: class-document.php:1203
+#: class-document.php:1216
 #: gutenberg/src/index.js:73
 msgid "Synchronize document with Complianz"
 msgstr ""
 
-#: class-document.php:1215
+#: class-document.php:1228
 #: gutenberg/src/index.js:74
 msgid "Edit document and stop synchronization"
 msgstr ""
 
-#: class-document.php:1686
-#: class-document.php:1838
+#: class-document.php:1717
+#: class-document.php:1869
 msgid "Update pages"
 msgstr ""
 
-#: class-document.php:1755
+#: class-document.php:1786
 msgid "The pages marked with X should be added to your website. You can create these pages with a shortcode, a Gutenberg block, or use the below \"Create missing pages\" button."
 msgstr ""
 
-#: class-document.php:1757
+#: class-document.php:1788
 msgid "All necessary pages have been created already. You can update the page titles here if you want, then click the \"Update pages\" button."
 msgstr ""
 
-#: class-document.php:1807
-#: class-document.php:2379
+#: class-document.php:1838
+#: class-document.php:2456
 msgid "Withdrawal"
 msgstr ""
 
-#: class-document.php:1828
+#: class-document.php:1859
 msgid "Click to copy the withdrawal form shortcode"
 msgstr ""
 
-#: class-document.php:1836
+#: class-document.php:1867
 msgid "Create missing pages"
 msgstr ""
 
-#: class-document.php:1872
+#: class-document.php:1903
 msgid "Your WordPress version does not support the functions needed for this step. You can upgrade to the latest WordPress version, or add the pages manually to a menu."
 msgstr ""
 
 #. translators: %1$s is the opening anchor tag, %2$s is the closing anchor tag.
-#: class-document.php:1891
-#, php-format
+#: class-document.php:1922
 msgid "No menus were found. Skip this step, or %1$screate a menu%2$s first."
 msgstr ""
 
-#: class-document.php:1904
+#: class-document.php:1935
 msgid "You haven't created all required pages yet. You can add missing pages in the previous step, or create them manually with the shortcode. You can come back later to this step to add your pages to the desired menu, or do it manually via Appearance > Menu."
 msgstr ""
 
-#: class-document.php:1917
+#: class-document.php:1948
 msgid "Select a menu"
 msgstr ""
 
-#: class-document.php:2224
+#: class-document.php:2267
+msgid "Too many attempts. Please wait a moment and try again."
+msgstr ""
+
+#: class-document.php:2286
 msgid "Withdrawal request sent"
 msgstr ""
 
-#: class-document.php:2225
+#: class-document.php:2287
 msgid "Thank you. Your withdrawal request has been sent to the merchant. You will also receive a confirmation of your request by email."
 msgstr ""
 
-#: class-document.php:2245
+#: class-document.php:2306
 msgid "We could not confirm your withdrawal request was delivered"
 msgstr ""
 
-#: class-document.php:2246
+#: class-document.php:2307
 msgid "Something went wrong while sending your withdrawal request, and we cannot confirm it reached the merchant. If you have received a confirmation email, please do not rely on it — your request may not have gone through."
 msgstr ""
 
-#: class-document.php:2247
+#: class-document.php:2308
 msgid "To make sure your withdrawal is registered, please contact the merchant directly:"
 msgstr ""
 
-#: class-document.php:2268
+#: class-document.php:2329
+msgid "We could not process your request right now"
+msgstr ""
+
+#: class-document.php:2330
+msgid "Something went wrong while sending your withdrawal request. Please try again in a little while."
+msgstr ""
+
+#: class-document.php:2348
 msgid "To withdraw from your contract, please use our withdrawal function:"
 msgstr ""
 
 #. translators: %s: merchant contact page URL.
-#: class-document.php:2336
-#, php-format
+#: class-document.php:2413
 msgid "Contact page: %s"
 msgstr ""
 
 #. translators: %s: merchant contact email address for withdrawal queries.
-#: class-document.php:2343
-#, php-format
+#: class-document.php:2420
 msgid "Email: %s"
 msgstr ""
 
@@ -257,19 +264,16 @@ msgstr ""
 
 #. translators: %s is the name of the language (e.g. "Dutch", "French").
 #: class-field.php:2380
-#, php-format
 msgid "Cookies in %s"
 msgstr ""
 
 #. translators: %s is the name of the language (e.g. "Dutch", "French").
 #: class-field.php:2380
-#, php-format
 msgid "Services in %s"
 msgstr ""
 
 #. translators: %1$s is the opening anchor tag for the contact link, %2$s is the closing anchor tag.
 #: class-review.php:194
-#, php-format
 msgid "Hi, you have been using Complianz Terms & Conditions for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %1$smessage%2$s."
 msgstr ""
 
@@ -285,114 +289,114 @@ msgstr ""
 msgid "Don't show again"
 msgstr ""
 
-#: class-withdrawal.php:101
-msgid "Too many attempts. Please wait a moment and try again."
-msgstr ""
-
-#: class-withdrawal.php:112
+#: class-withdrawal.php:170
 msgid "Your session has expired. Please review the details below and submit again."
 msgstr ""
 
-#: class-withdrawal.php:118
+#: class-withdrawal.php:176
 msgid "That was a little too quick. Please review the details below and submit again."
 msgstr ""
 
-#: class-withdrawal.php:364
+#: class-withdrawal.php:356
 msgid "Please enter your name."
 msgstr ""
 
-#: class-withdrawal.php:369
+#: class-withdrawal.php:361
 msgid "Please enter your email address."
 msgstr ""
 
-#: class-withdrawal.php:371
-msgid "Please enter a valid email address."
-msgstr ""
-
-#: class-withdrawal.php:375
+#: class-withdrawal.php:366
 msgid "Please describe the goods or service you are withdrawing from."
 msgstr ""
 
-#: class-withdrawal.php:565
+#: class-withdrawal.php:431
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: class-withdrawal.php:441
+msgid "This value is too long. Please shorten it and try again."
+msgstr ""
+
+#: class-withdrawal.php:728
 msgid "New withdrawal request"
 msgstr ""
 
-#: class-withdrawal.php:639
+#: class-withdrawal.php:801
 msgid "We have received your withdrawal request"
 msgstr ""
 
-#: class-withdrawal.php:665
+#: class-withdrawal.php:825
 msgid "A withdrawal request was submitted with the following details:"
 msgstr ""
 
-#: class-withdrawal.php:669
-#: class-withdrawal.php:699
+#: class-withdrawal.php:829
+#: class-withdrawal.php:859
 msgid "Submitted on"
 msgstr ""
 
-#: class-withdrawal.php:671
+#: class-withdrawal.php:831
 msgid "Submitted from"
 msgstr ""
 
-#: class-withdrawal.php:689
+#: class-withdrawal.php:849
 msgid "This is an automated confirmation that your withdrawal request has been received and sent to the merchant."
 msgstr ""
 
-#: class-withdrawal.php:690
+#: class-withdrawal.php:850
 msgid "Receiving this message does not mean the merchant has already reviewed your request. They will contact you with any further information in due course."
 msgstr ""
 
-#: class-withdrawal.php:692
+#: class-withdrawal.php:852
 msgid "This is a copy of the withdrawal request you submitted. We could not deliver it to the merchant automatically, so please contact them directly to complete your withdrawal."
 msgstr ""
 
-#: class-withdrawal.php:695
+#: class-withdrawal.php:855
 msgid "For your records, these are the details you submitted:"
 msgstr ""
 
-#: class-withdrawal.php:704
+#: class-withdrawal.php:864
 msgid "This acknowledgement was sent on behalf of:"
 msgstr ""
 
-#: class-withdrawal.php:719
-#: templates/withdrawal-form.php:47
+#: class-withdrawal.php:880
+#: templates/withdrawal-form.php:44
 msgid "Name"
 msgstr ""
 
-#: class-withdrawal.php:720
+#: class-withdrawal.php:881
 msgid "Email"
 msgstr ""
 
-#: class-withdrawal.php:721
-#: config/questions-wizard.php:95
-#: templates/withdrawal-form.php:68
-msgid "Address"
-msgstr ""
-
-#: class-withdrawal.php:722
-#: templates/withdrawal-form.php:75
-msgid "Order or contract reference"
-msgstr ""
-
-#: class-withdrawal.php:723
-#: templates/withdrawal-form.php:82
-msgid "Order date"
-msgstr ""
-
-#: class-withdrawal.php:724
+#: class-withdrawal.php:882
 msgid "Goods or service"
 msgstr ""
 
-#: class-withdrawal.php:725
-#: templates/withdrawal-form.php:89
+#: class-withdrawal.php:883
+#: config/questions-wizard.php:95
+#: templates/withdrawal-form.php:65
+msgid "Address"
+msgstr ""
+
+#: class-withdrawal.php:884
+#: templates/withdrawal-form.php:72
+msgid "Order or contract reference"
+msgstr ""
+
+#: class-withdrawal.php:885
+#: templates/withdrawal-form.php:79
+msgid "Order date"
+msgstr ""
+
+#: class-withdrawal.php:886
+#: templates/withdrawal-form.php:86
 msgid "Additional message"
 msgstr ""
 
-#: class-withdrawal.php:859
+#: class-withdrawal.php:1113
 msgid "A withdrawal request was submitted but its notification email could not be delivered. Because Complianz Terms & Conditions does not store requests, please check your email or SMTP configuration so this does not happen again."
 msgstr ""
 
-#: class-withdrawal.php:866
+#: class-withdrawal.php:1120
 msgid "Dismiss"
 msgstr ""
 
@@ -406,13 +410,11 @@ msgstr ""
 
 #. translators: %s is the display name of the user currently editing the wizard.
 #: class-wizard.php:552
-#, php-format
 msgid "The wizard is currently being edited by %s"
 msgstr ""
 
 #. translators: %s is the number of minutes until the wizard lock expires.
 #: class-wizard.php:560
-#, php-format
 msgid "If this user stops editing, the lock will expire after %s minutes."
 msgstr ""
 
@@ -430,13 +432,11 @@ msgstr ""
 
 #. translators: %s is the document type name, e.g. "Terms & Conditions".
 #: class-wizard.php:832
-#, php-format
 msgid "Create %s"
 msgstr ""
 
 #. translators: %s is the document type name, e.g. "Terms & Conditions".
 #: class-wizard.php:836
-#, php-format
 msgid "Open %s"
 msgstr ""
 
@@ -2236,7 +2236,6 @@ msgstr ""
 
 #. translators: %s is the date the document was last updated.
 #: config/documents/terms-conditions.php:18
-#, php-format
 msgctxt "Legal document"
 msgid "The Terms and Conditions were last updated on %s"
 msgstr ""
@@ -2333,7 +2332,6 @@ msgstr ""
 
 #. translators: %s is the name of the Creative Commons license.
 #: config/documents/terms-conditions.php:87
-#, php-format
 msgctxt "Legal document"
 msgid "The content on this website is available under a %s License, unless specified otherwise."
 msgstr ""
@@ -2456,35 +2454,30 @@ msgstr ""
 
 #. translators: %s is the number of withdrawal days.
 #: config/documents/terms-conditions.php:156
-#, php-format
 msgctxt "Legal document"
 msgid "You have the right to withdraw from this contract within %s days without giving any reason."
 msgstr ""
 
 #. translators: %s is the number of withdrawal days.
 #: config/documents/terms-conditions.php:161
-#, php-format
 msgctxt "Legal document"
 msgid "The withdrawal period will expire after %s days from the day of the conclusion of the contract."
 msgstr ""
 
 #. translators: %s is the number of withdrawal days.
 #: config/documents/terms-conditions.php:170
-#, php-format
 msgctxt "Legal document"
 msgid "The withdrawal period will expire after %s days from the day on which you acquire, or a third-party other than the carrier and indicated by you acquires, physical possession of the goods."
 msgstr ""
 
 #. translators: %s is the number of withdrawal days.
 #: config/documents/terms-conditions.php:179
-#, php-format
 msgctxt "Legal document"
 msgid "The withdrawal period will expire after %s days from the day on which you acquire, or a third-party other than the carrier and indicated by you acquires, physical possession of the last good, or physical possession of the last lot or piece"
 msgstr ""
 
 #. translators: %s is the number of withdrawal days.
 #: config/documents/terms-conditions.php:188
-#, php-format
 msgctxt "Legal document"
 msgid "The withdrawal period will expire after %s days from the day on which you acquire, or a third party other than the carrier and indicated by you acquires, physical possession of the first good"
 msgstr ""
@@ -2498,7 +2491,6 @@ msgstr ""
 #. translators: %1$s is the opening anchor tag for the withdrawal function link, %2$s is the closing anchor tag.
 #: config/documents/terms-conditions.php:199
 #: config/documents/terms-conditions.php:211
-#, php-format
 msgctxt "Legal document"
 msgid "To this end, you may use the %1$swithdrawal function available%2$s."
 msgstr ""
@@ -2511,7 +2503,6 @@ msgstr ""
 
 #. translators: %1$s is the opening anchor tag for the company website, %2$s is the closing anchor tag.
 #: config/documents/terms-conditions.php:221
-#, php-format
 msgctxt "Legal document"
 msgid "You can also submit any other unequivocal statement on our %1$s website%2$s."
 msgstr ""
@@ -2568,7 +2559,6 @@ msgstr ""
 
 #. translators: %s is the maximum amount for returning goods.
 #: config/documents/terms-conditions.php:291
-#, php-format
 msgctxt "Legal document"
 msgid "The maximum cost of returning the goods is %s."
 msgstr ""
@@ -2746,7 +2736,6 @@ msgstr ""
 
 #. translators: %s is the maximum liability amount.
 #: config/documents/terms-conditions.php:412
-#, php-format
 msgctxt "Legal document"
 msgid "Except to the extent any additional contract expressly states otherwise, our maximum liability to you for all damages arising out of or related to the website or any products and services marketed or sold through the website, regardless of the form of legal action that imposes liability (whether in contract, equity, negligence, intended conduct, tort or otherwise) will be limited to %s."
 msgstr ""
@@ -2788,7 +2777,6 @@ msgstr ""
 
 #. translators: %1$s and %3$s are opening anchor tags, %2$s and %4$s are closing anchor tags.
 #: config/documents/terms-conditions.php:435
-#, php-format
 msgctxt "Legal document"
 msgid "For more information, please see our %1$sPrivacy Statement%2$s and our %3$sCookie Policy%4$s."
 msgstr ""
@@ -2820,21 +2808,18 @@ msgstr ""
 
 #. translators: %s is the minimum age requirement.
 #: config/documents/terms-conditions.php:461
-#, php-format
 msgctxt "Legal document"
 msgid "By using our website or agreeing to these Terms and Conditions, you warrant and represent to us that you are at least %s years of age."
 msgstr ""
 
 #. translators: %s is the minimum age requirement.
 #: config/documents/terms-conditions.php:467
-#, php-format
 msgctxt "Legal document"
 msgid "If you are over %s years old but under the age of 18, your Parent or legal guardian must review and agree to these Terms before you use our website any further, and your Parent or legal guardian will be responsible and liable for all of your acts and omissions."
 msgstr ""
 
 #. translators: %s is the minimum age requirement.
 #: config/documents/terms-conditions.php:476
-#, php-format
 msgctxt "Legal document"
 msgid "If you are %s years old, your Parent or legal guardian must review and agree to these Terms before you use our website any further, and your Parent or legal guardian will be responsible and liable for all of your acts and omissions."
 msgstr ""
@@ -2851,7 +2836,6 @@ msgstr ""
 
 #. translators: %s is the company's country.
 #: config/documents/terms-conditions.php:488
-#, php-format
 msgctxt "Legal document"
 msgid "You may not use this website in violation of export laws and regulations of %s."
 msgstr ""
@@ -2963,7 +2947,6 @@ msgstr ""
 
 #. translators: %s is the language name.
 #: config/documents/terms-conditions.php:551
-#, php-format
 msgctxt "Legal document"
 msgid "These Terms and Conditions will be interpreted and construed exclusively in %s."
 msgstr ""
@@ -2981,14 +2964,12 @@ msgstr ""
 
 #. translators: %1$s-%4$s are anchor tags for privacy and cookie policy links, %5$s is the organisation name.
 #: config/documents/terms-conditions.php:559
-#, php-format
 msgctxt "Legal document"
 msgid "These Terms and Conditions, together with our %1$sprivacy statement%2$s and %3$scookie policy%4$s, constitute the entire agreement between you and %5$s in relation to your use of this website."
 msgstr ""
 
 #. translators: %s is the organisation name.
 #: config/documents/terms-conditions.php:566
-#, php-format
 msgctxt "Legal document"
 msgid "These Terms and Conditions shall constitute the entire agreement between you and %s in relation to your use of this website."
 msgstr ""
@@ -3044,14 +3025,12 @@ msgstr ""
 
 #. translators: %s is the company's country.
 #: config/documents/terms-conditions.php:595
-#, php-format
 msgctxt "Legal document"
 msgid "These Terms and Conditions shall be governed by the laws of %s."
 msgstr ""
 
 #. translators: %s is the company's country.
 #: config/documents/terms-conditions.php:597
-#, php-format
 msgctxt "Legal document"
 msgid "Any disputes relating to these Terms and Conditions shall be subject to the jurisdiction of the courts of %s."
 msgstr ""
@@ -3073,21 +3052,18 @@ msgstr ""
 
 #. translators: %s is the organisation name.
 #: config/documents/terms-conditions.php:606
-#, php-format
 msgctxt "Legal document"
 msgid "This website is owned and operated by %s."
 msgstr ""
 
 #. translators: %1$s is the opening anchor tag for the contact page, %2$s is the closing anchor tag.
 #: config/documents/terms-conditions.php:610
-#, php-format
 msgctxt "Legal document"
 msgid "You may contact us regarding these Terms and Conditions through our %1$scontact%2$s page."
 msgstr ""
 
 #. translators: %s is the company email and/or address.
 #: config/documents/terms-conditions.php:618
-#, php-format
 msgctxt "Legal document"
 msgid "You may contact us regarding these Terms and Conditions by writing or emailing us at the following address: %s "
 msgstr ""
@@ -3103,7 +3079,6 @@ msgstr ""
 
 #. translators: %1$s is the opening anchor tag for the PDF download link, %2$s is the closing anchor tag.
 #: config/documents/terms-conditions.php:629
-#, php-format
 msgctxt "Legal document"
 msgid "You can also %1$sdownload%2$s our Terms and Conditions as a PDF."
 msgstr ""
@@ -3376,71 +3351,71 @@ msgstr ""
 msgid "Following EU Directive 2023/2673 (effective 19 June 2026), you must offer consumers an easy-to-use online withdrawal function for distance contracts. Adding the link to your withdrawal function is now required."
 msgstr ""
 
-#: config/questions-wizard.php:557
+#: config/questions-wizard.php:558
 msgid "Where should we send withdrawal requests?"
 msgstr ""
 
-#: config/questions-wizard.php:558
+#: config/questions-wizard.php:559
 msgid "Each withdrawal request submitted through the Complianz withdrawal form is emailed to this address. Defaults to your general contact email, or the site administrator address."
 msgstr ""
 
-#: config/questions-wizard.php:559
+#: config/questions-wizard.php:560
 msgid "Withdrawal requests are <strong>not stored</strong> in WordPress — they are delivered by email only. Make sure your site can send email (configure an SMTP plugin or server), otherwise a request may never arrive."
 msgstr ""
 
-#: config/questions-wizard.php:575
+#: config/questions-wizard.php:576
 msgid "What is your refund period in days?"
 msgstr ""
 
-#: config/questions-wizard.php:576
+#: config/questions-wizard.php:577
 msgid "EU legislation requires you to offer a minimum of 14 days refund period."
 msgstr ""
 
-#: config/questions-wizard.php:589
+#: config/questions-wizard.php:590
 msgid "Services and/or digital content."
 msgstr ""
 
-#: config/questions-wizard.php:590
+#: config/questions-wizard.php:591
 msgid "Utilities - Gas, water and electricity."
 msgstr ""
 
-#: config/questions-wizard.php:591
+#: config/questions-wizard.php:592
 msgid "Products and goods."
 msgstr ""
 
-#: config/questions-wizard.php:592
+#: config/questions-wizard.php:593
 msgid "A contract relating to goods ordered by the consumer and delivered separately."
 msgstr ""
 
-#: config/questions-wizard.php:593
+#: config/questions-wizard.php:594
 msgid "Subscription-based delivery of goods."
 msgstr ""
 
-#: config/questions-wizard.php:597
+#: config/questions-wizard.php:598
 msgid "Please choose the option that best describes the contract a consumer closes with you through the use of the website."
 msgstr ""
 
-#: config/questions-wizard.php:611
+#: config/questions-wizard.php:612
 msgid "Do you want to offer your customer to collect the goods yourself in the event of withdrawal?"
 msgstr ""
 
-#: config/questions-wizard.php:624
+#: config/questions-wizard.php:625
 msgid "We, the seller"
 msgstr ""
 
-#: config/questions-wizard.php:625
+#: config/questions-wizard.php:626
 msgid "The customer"
 msgstr ""
 
-#: config/questions-wizard.php:627
+#: config/questions-wizard.php:628
 msgid "The goods, by their nature, cannot normally be returned by post and a maximum cost of return applies "
 msgstr ""
 
-#: config/questions-wizard.php:630
+#: config/questions-wizard.php:631
 msgid "Who will bear the cost of returning the goods?"
 msgstr ""
 
-#: config/questions-wizard.php:644
+#: config/questions-wizard.php:645
 msgid "Regarding the previous question, fill in the maximum amount including the currency."
 msgstr ""
 
@@ -3450,13 +3425,11 @@ msgstr ""
 
 #. translators: 1 and 2 are opening and closing anchor tags around the word "know", 3 and 4 are opening and closing anchor tags around the words "support ticket".
 #: config/steps.php:70
-#, php-format
 msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there's any way you think we can improve the plugin, please let us %1$sknow%2$s!"
 msgstr ""
 
 #. translators: 1 and 2 are opening and closing anchor tags around the word "documentation", 3 and 4 are opening and closing anchor tags around the words "support ticket".
 #: config/steps.php:72
-#, php-format
 msgid " Please note that you can always save and finish the wizard later, use our %1$sdocumentation%2$s for additional information or log a %3$ssupport ticket%4$s if you need our assistance."
 msgstr ""
 
@@ -3530,7 +3503,6 @@ msgstr ""
 
 #. translators: %1$s is the opening anchor tag, %2$s is the closing anchor tag.
 #: functions.php:408
-#, php-format
 msgid "For more information on this subject, please read this %1$sarticle%2$s."
 msgstr ""
 
@@ -3542,40 +3514,40 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: templates/withdrawal-form.php:54
+#: templates/withdrawal-form.php:51
 msgid "Email address"
 msgstr ""
 
-#: templates/withdrawal-form.php:61
+#: templates/withdrawal-form.php:58
 msgid "Goods or service being withdrawn"
 msgstr ""
 
-#: templates/withdrawal-form.php:109
+#: templates/withdrawal-form.php:107
 #: gutenberg/src/index.js:221
 msgid "Withdrawal form"
 msgstr ""
 
-#: templates/withdrawal-form.php:110
+#: templates/withdrawal-form.php:108
 msgid "Complete and submit this form only if you wish to withdraw from your contract."
 msgstr ""
 
-#: templates/withdrawal-form.php:111
+#: templates/withdrawal-form.php:109
 msgid "Required fields are marked with an asterisk (*)."
 msgstr ""
 
-#: templates/withdrawal-form.php:115
+#: templates/withdrawal-form.php:113
 msgid "Please correct the following:"
 msgstr ""
 
-#: templates/withdrawal-form.php:132
+#: templates/withdrawal-form.php:130
 msgid "To:"
 msgstr ""
 
-#: templates/withdrawal-form.php:196
+#: templates/withdrawal-form.php:194
 msgid "Leave this field empty"
 msgstr ""
 
-#: templates/withdrawal-form.php:205
+#: templates/withdrawal-form.php:203
 msgid "Send withdrawal request"
 msgstr ""
 
@@ -3585,19 +3557,16 @@ msgstr ""
 
 #. translators: %s is the document type name, e.g. "Terms & Conditions".
 #: templates/wizard/last-step.php:26
-#, php-format
 msgid "Translating %s"
 msgstr ""
 
 #. translators: %s is the document type name, e.g. "Terms & Conditions".
 #: templates/wizard/last-step.php:34
-#, php-format
 msgid "Styling %s"
 msgstr ""
 
 #. translators: %s is the document type name, e.g. "Terms & Conditions".
 #: templates/wizard/last-step.php:42
-#, php-format
 msgid "Editing %s"
 msgstr ""
 
