@@ -19,7 +19,50 @@
 
 defined( 'ABSPATH' ) || die( 'you do not have acces to this page!' );
 
+if ( ! function_exists( 'cmplz_tc_repair_placeholders' ) ) {
+	/**
+	 * Restores printf placeholders that a translation dropped the conversion character from.
+	 *
+	 * Community translations can damage positional placeholders (ex.: the cs_CZ
+	 * strings turned `%4$s` into `%4$` and `%1$sprivacy` into `%1$privacy`). To avoid
+	 * a fatal PHP 8 ValueError from taking down every request on affected sites, rewriting
+	 * `%N$` to `%N$s` keeps the sentence and its links intact.
+	 *
+	 * @since  1.4.1
+	 *
+	 * @param  string $translation Translated string, possibly with damaged placeholders.
+	 * @return string              The string with every positional placeholder valid again.
+	 */
+	function cmplz_tc_repair_placeholders( $translation ) {
+		// Every damaged placeholder contains `$`, so strings without one need no work.
+		if ( false === strpos( $translation, '$' ) ) {
+			return $translation;
+		}
 
+		// Matches `%N$` only when what follows cannot complete a conversion specification.
+		// A translated word starting with a conversion character (`%1$binary`) still reads
+		// as valid and is left alone: it prints oddly, but sprintf() no longer fatals.
+		return preg_replace( "/%(\d+)\\\$(?![-+0']*(?:'.)?-?\d*(?:\.\d+)?[bcdeEfFgGosuxX])/", '%${1}$s', $translation );
+	}
+}
+
+if ( ! function_exists( 'cmplz_tc_repair_translation' ) ) {
+	/**
+	 * Repairs placeholders in this plugin's translations.
+	 *
+	 * Filters `gettext`, `gettext_with_context`, `ngettext` and `ngettext_with_context`,
+	 * which all pass the text domain as their last argument.
+	 *
+	 * @since  1.4.1
+	 *
+	 * @param  string $translation Translated text.
+	 * @param  mixed  ...$args     Remaining hook arguments; the last one is the text domain.
+	 * @return string              Translated text with valid placeholders.
+	 */
+	function cmplz_tc_repair_translation( $translation, ...$args ) {
+		return 'complianz-terms-conditions' === end( $args ) ? cmplz_tc_repair_placeholders( $translation ) : $translation;
+	}
+}
 
 if ( ! function_exists( 'cmplz_tc_get_template' ) ) {
 	/**
