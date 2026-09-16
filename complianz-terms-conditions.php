@@ -3,7 +3,7 @@
  * Plugin Name: Complianz - Terms and Conditions
  * Plugin URI: https://wordpress.org/plugins/complianz-terms-conditions
  * Description: Plugin from Complianz to generate Terms & Conditions for your website.
- * Version: 1.4.0
+ * Version: 1.4.1
  * Requires at least: 5.7
  * Requires PHP: 7.4
  * Text Domain: complianz-terms-conditions
@@ -255,7 +255,7 @@ if ( ! class_exists( 'COMPLIANZ_TC' ) ) {
 			define( 'cmplz_tc_plugin_file', __FILE__ ); // phpcs:ignore Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase -- Lowercase constant name; established across codebase and add-ons.
 			// Append a timestamp in SCRIPT_DEBUG mode to bust browser/CDN asset caches.
 			$debug = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? time() : '';
-			define( 'cmplz_tc_version', '1.4.0' . $debug ); // phpcs:ignore Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase -- Lowercase constant name; established across codebase and add-ons.
+			define( 'cmplz_tc_version', '1.4.1' . $debug ); // phpcs:ignore Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase -- Lowercase constant name; established across codebase and add-ons.
 		}
 
 		/**

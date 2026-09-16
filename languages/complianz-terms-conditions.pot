@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Complianz - Terms and Conditions plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Complianz - Terms and Conditions 1.4.0\n"
+"Project-Id-Version: Complianz - Terms and Conditions 1.4.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/complianz-terms-conditions\n"
 "Last-Translator: Complianz <support@complianz.io>\n"
 "Language-Team: Complianz <support@complianz.io>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-27T08:27:32+00:00\n"
+"POT-Creation-Date: 2026-09-16T10:57:37+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: complianz-terms-conditions\n"
@@ -3502,11 +3502,11 @@ msgid "Finish"
 msgstr ""
 
 #. translators: %1$s is the opening anchor tag, %2$s is the closing anchor tag.
-#: functions.php:408
+#: functions.php:451
 msgid "For more information on this subject, please read this %1$sarticle%2$s."
 msgstr ""
 
-#: functions.php:439
+#: functions.php:482
 msgid "All regions"
 msgstr ""
 

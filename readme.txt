@@ -1,11 +1,11 @@
 === Complianz - Terms and Conditions ===
-Contributors: RogierLankhorst, aahulsebos, leonwimmenhoeve, paapst
+Contributors: RogierLankhorst, aahulsebos, leonwimmenhoeve, paapst, gdom3
 Tags: terms, conditions, webshop, legal, terms and conditions
 Requires at least: 5.0
 License: GPL3
 Requires PHP: 7.4
-Tested up to: 7.0
-Stable tag: 1.4.0
+Tested up to: 7.1
+Stable tag: 1.4.1
 
 Configure your own Terms and Conditions specific to your service or webshop.
 
@@ -46,6 +46,11 @@ The Terms & Conditions have their own [CSS classes](https://complianz.io/styling
 Terms and Conditions, on the web, also known as Terms of Service or Terms of Use, is an agreement explaining the terms, rules, and guidelines to which a user must agree before entering a contractual relationship with the website owner.
 
 == Change log ==
+= 1.4.1 =
+* September 16th, 2026
+* Fix: repaired malformed placeholders in community translations (e.g. Czech) that could trigger a fatal error on PHP 8; a damaged translation now degrades gracefully instead of crashing the site.
+* Improvement: tested and confirmed compatible with WordPress 7.1.
+
 = 1.4.0 =
 * July 27th, 2026
 * New: built-in online withdrawal function for EU Directive 2023/2673, available as a Withdrawal page, a Gutenberg block, and a shortcode.
